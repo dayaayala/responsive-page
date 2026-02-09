@@ -1,0 +1,116 @@
+
+body
+{
+	margin: 0px;
+	padding: 10px;
+}
+
+h1 { 
+	font-size: 60px;
+	letter-spacing: 30px;
+	background-color: purple;
+	padding: 20px;
+
+
+}
+
+h2 {
+    font-size: 30px;
+	background-color: pink;
+	padding: 20px;
+
+}
+
+p {
+	font-size: 30px;
+	line-spacing: 1.5em;
+	padding: 20px;
+
+}
+
+@media screen and (max-width: 1024px){
+	h1{
+		background-color: orange;
+		font-size:50px;
+		color: white;
+		letter-spacing: 25px;
+
+	}
+	h2{
+		color: white;
+		background-color: gold;
+	}
+	p{
+		font-size:25px;
+	}
+
+}
+@media screen and (max-width: 768px){
+	h1{
+		background-color: teal;
+		font-size:40px;
+		color: white;
+		letter-spacing: 20px;
+
+	}
+	h2{
+		color: white;
+		background-color: blue;
+		font-size: 20px;
+	}
+	p{
+		font-size:20px;
+	}
+}
+@media screen and (max-width: 600px){
+	h1{
+		background-color: lightcoral;
+		font-size:30px;
+		color: white;
+		letter-spacing: 15px;
+
+	}
+	h2{
+		color: white;
+		background-color: coral;
+		font-size: 15px;
+	}
+	p{
+		font-size:15px;
+	}
+}
+@media screen and (max-width: 480px){
+	h1{
+		background-color: cyan;
+		font-size:25px;
+		color: white;
+		letter-spacing: 10px;
+
+	}
+	h2{
+		color: white;
+		background-color: cadetblue;
+		font-size: 10px;
+	}
+	p{
+		font-size:10px;
+	}
+
+}
+@media screen and (max-width: 320px){
+	h1{
+		background-color: violet;
+		font-size:20px;
+		color: white;
+		letter-spacing: 5px;
+
+	}
+	h2{
+		color: white;
+		background-color: thistle;
+		font-size: 10px;
+	}
+	p{
+		font-size:5px;
+	}
+}
